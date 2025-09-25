@@ -21,3 +21,14 @@ It allows users to:
 
 ## Installation Instructions
 1. Clone this repository:  
+2. Move the folder to your **XAMPP `htdocs` directory**.  
+3. Open **phpMyAdmin** and import the provided `database.sql` or manually create the `students` table:
+
+```sql
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    phone VARCHAR(15)
+);
+http://localhost/student_crud_task2/index.php
